@@ -22,3 +22,4 @@ app.include_router(api_router, prefix="/api/v1", tags=["v1"])
 @app.get("/")
 async def root():
     return 'Sometimes I dream about cheese.'
+    BOT_TOKEN: "MTIwOTU3NTU4OTk0NjcyMDI2Ng.Gcw0MK.r2G4OxAQDzkk1PeaKxM6-rSBRcaReBqCp4L_f0"
